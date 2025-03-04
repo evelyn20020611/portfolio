@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8; /* Light background */
@@ -12,6 +12,14 @@ header {
     color: white;
     text-align: center;
     padding: 2rem 0;
+}
+
+.profile-img {
+    width: 150px; /* 調整照片大小 */
+    height: 150px;
+    border-radius: 50%; /* 圓角 */
+    object-fit: cover; /* 保持圖片比例 */
+    margin-bottom: 1rem;
 }
 
 header h1 {
